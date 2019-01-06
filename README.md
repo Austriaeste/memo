@@ -8,7 +8,7 @@ Get-Date -UFormat "(%m/%d)"
 
 # 前日日付を取得
  [DateTime]::Today.AddDays(-1).ToString('MM/dd')
-
+[DateTime]::Today.AddDays(-1).ToString('MM/dd')
 ---
 
 DateTime を[]で囲うとフォントが大きくなるのを何とかしたい。。。
